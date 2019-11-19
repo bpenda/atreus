@@ -1,0 +1,162 @@
+   1               		.file	"keymap_qwerty.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.cfi_sections	.debug_frame
+  10               	.global	actionmaps
+  11               		.section	.progmem.data.actionmaps,"a",@progbits
+  14               	actionmaps:
+  15 0000 1400      		.word	20
+  16 0002 1A00      		.word	26
+  17 0004 0800      		.word	8
+  18 0006 1500      		.word	21
+  19 0008 1700      		.word	23
+  20 000a 0000      		.word	0
+  21 000c 1C00      		.word	28
+  22 000e 1800      		.word	24
+  23 0010 0C00      		.word	12
+  24 0012 1200      		.word	18
+  25 0014 1300      		.word	19
+  26 0016 0400      		.word	4
+  27 0018 1600      		.word	22
+  28 001a 0700      		.word	7
+  29 001c 0900      		.word	9
+  30 001e 0A00      		.word	10
+  31 0020 0000      		.word	0
+  32 0022 0B00      		.word	11
+  33 0024 0D00      		.word	13
+  34 0026 0E00      		.word	14
+  35 0028 0F00      		.word	15
+  36 002a 3300      		.word	51
+  37 002c 1D00      		.word	29
+  38 002e 1B00      		.word	27
+  39 0030 0600      		.word	6
+  40 0032 1900      		.word	25
+  41 0034 0500      		.word	5
+  42 0036 E300      		.word	227
+  43 0038 1100      		.word	17
+  44 003a 1000      		.word	16
+  45 003c 3600      		.word	54
+  46 003e 3700      		.word	55
+  47 0040 3800      		.word	56
+  48 0042 2900      		.word	41
+  49 0044 2B00      		.word	43
+  50 0046 E200      		.word	226
+  51 0048 E100      		.word	225
+  52 004a 2A00      		.word	42
+  53 004c E000      		.word	224
+  54 004e 2C00      		.word	44
+  55 0050 F1A1      		.word	-24079
+  56 0052 2D00      		.word	45
+  57 0054 3400      		.word	52
+  58 0056 2800      		.word	40
+  59 0058 2900      		.word	41
+  60 005a 3500      		.word	53
+  61 005c 5200      		.word	82
+  62 005e 2F02      		.word	559
+  63 0060 3002      		.word	560
+  64 0062 0000      		.word	0
+  65 0064 E944      		.word	17641
+  66 0066 2400      		.word	36
+  67 0068 2500      		.word	37
+  68 006a 2600      		.word	38
+  69 006c 3100      		.word	49
+  70 006e 2B00      		.word	43
+  71 0070 5000      		.word	80
+  72 0072 5100      		.word	81
+  73 0074 4F00      		.word	79
+  74 0076 2102      		.word	545
+  75 0078 0000      		.word	0
+  76 007a EA44      		.word	17642
+  77 007c 2100      		.word	33
+  78 007e 2200      		.word	34
+  79 0080 2300      		.word	35
+  80 0082 3400      		.word	52
+  81 0084 2F00      		.word	47
+  82 0086 3000      		.word	48
+  83 0088 2602      		.word	550
+  84 008a 2702      		.word	551
+  85 008c 2402      		.word	548
+  86 008e E300      		.word	227
+  87 0090 E244      		.word	17634
+  88 0092 1E00      		.word	30
+  89 0094 1F00      		.word	31
+  90 0096 2000      		.word	32
+  91 0098 2E00      		.word	46
+  92 009a 0485      		.word	-31484
+  93 009c 4902      		.word	585
+  94 009e E200      		.word	226
+  95 00a0 E100      		.word	225
+  96 00a2 2A00      		.word	42
+  97 00a4 E000      		.word	224
+  98 00a6 2C00      		.word	44
+  99 00a8 F1A1      		.word	-24079
+ 100 00aa 2700      		.word	39
+ 101 00ac 3700      		.word	55
+ 102 00ae 2800      		.word	40
+ 103 00b0 4900      		.word	73
+ 104 00b2 4A00      		.word	74
+ 105 00b4 5200      		.word	82
+ 106 00b6 4D00      		.word	77
+ 107 00b8 4B00      		.word	75
+ 108 00ba 0000      		.word	0
+ 109 00bc 5200      		.word	82
+ 110 00be 4000      		.word	64
+ 111 00c0 4100      		.word	65
+ 112 00c2 4200      		.word	66
+ 113 00c4 4300      		.word	67
+ 114 00c6 4C00      		.word	76
+ 115 00c8 5000      		.word	80
+ 116 00ca 5100      		.word	81
+ 117 00cc 4F00      		.word	79
+ 118 00ce 4E00      		.word	78
+ 119 00d0 0000      		.word	0
+ 120 00d2 5100      		.word	81
+ 121 00d4 3D00      		.word	61
+ 122 00d6 3E00      		.word	62
+ 123 00d8 3F00      		.word	63
+ 124 00da 4400      		.word	68
+ 125 00dc E944      		.word	17641
+ 126 00de B644      		.word	17590
+ 127 00e0 CD44      		.word	17613
+ 128 00e2 B544      		.word	17589
+ 129 00e4 00F0      		.word	-4096
+ 130 00e6 E000      		.word	224
+ 131 00e8 0000      		.word	0
+ 132 00ea 3A00      		.word	58
+ 133 00ec 3B00      		.word	59
+ 134 00ee 3C00      		.word	60
+ 135 00f0 4500      		.word	69
+ 136 00f2 EA44      		.word	17642
+ 137 00f4 E244      		.word	17634
+ 138 00f6 E300      		.word	227
+ 139 00f8 E100      		.word	225
+ 140 00fa 2A00      		.word	42
+ 141 00fc E200      		.word	226
+ 142 00fe 2C00      		.word	44
+ 143 0100 1B81      		.word	-32485
+ 144 0102 F1A2      		.word	-23823
+ 145 0104 4700      		.word	71
+ 146 0106 4800      		.word	72
+ 147               		.text
+ 148               	.Letext0:
+ 149               		.file 1 "/usr/local/Cellar/avr-gcc/4.8.3/avr/include/stdint.h"
+ 150               		.file 2 "../tmk/tmk_core/common/keycode.h"
+ 151               		.file 3 "../tmk/tmk_core/common/action_code.h"
+ 152               		.file 4 "keymap_common.h"
+ 153               		.file 5 "../tmk/tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.h"
+ 154               		.file 6 "keymap_qwerty.c"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 keymap_qwerty.c
+/var/folders/6w/4rcy_j8j0557kzr2cgz6ktg40000gn/T//cc1fEXSr.s:2      *ABS*:000000000000003e __SP_H__
+/var/folders/6w/4rcy_j8j0557kzr2cgz6ktg40000gn/T//cc1fEXSr.s:3      *ABS*:000000000000003d __SP_L__
+/var/folders/6w/4rcy_j8j0557kzr2cgz6ktg40000gn/T//cc1fEXSr.s:4      *ABS*:000000000000003f __SREG__
+/var/folders/6w/4rcy_j8j0557kzr2cgz6ktg40000gn/T//cc1fEXSr.s:5      *ABS*:0000000000000000 __tmp_reg__
+/var/folders/6w/4rcy_j8j0557kzr2cgz6ktg40000gn/T//cc1fEXSr.s:6      *ABS*:0000000000000001 __zero_reg__
+/var/folders/6w/4rcy_j8j0557kzr2cgz6ktg40000gn/T//cc1fEXSr.s:14     .progmem.data.actionmaps:0000000000000000 actionmaps
+
+NO UNDEFINED SYMBOLS
